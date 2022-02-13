@@ -1,0 +1,36 @@
+body, main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #383232;
+    font-family: sans-serif;
+}
+
+main {
+    height: 90vh;
+}
+
+.etch-a-sketch {
+    display: flex;
+    flex-direction: column;
+    /* background-color: whitesmoke; */
+    height: 400px;
+    width: 400px;
+}
+
+.etch-row {
+    display: flex;
+}
+
+
+.etch-block {
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    background-color: whitesmoke;
+    outline-style: solid;
+    outline-width: 0.5px;
+    outline-color: black;
+}
